@@ -21,3 +21,9 @@ if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
         print "\n*** ALL TESTS PASS. NICELY DONE!\n"
+
+
+# Learned from Solution:
+
+# If you didn't know the formula for the sum:
+# expected = sum(range(max_num + 1))
