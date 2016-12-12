@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 # SOLUTION:
 # This keeps num_guesses at 0, and the higher_than/lower_than keeps it from always having to create new lists,
-# which is positive for runtime.
+# which is positive for runtime.  Also the guess = None is really clever!
 
 # def binary_search(val):
 #     """Using binary search, find val in range 1-100. Return # of guesses."""
